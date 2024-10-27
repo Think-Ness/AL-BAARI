@@ -256,6 +256,11 @@ nav {
   display: inline-block;
 }
 
+.feature__card .btn a{
+  color: white;
+  text-decoration: none;
+}
+
 .story {
   overflow: hidden;
 }

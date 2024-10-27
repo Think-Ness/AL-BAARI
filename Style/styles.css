@@ -1,11 +1,11 @@
 :root{
-    --purple:#2F192E;
-    --purple-light:#30192d;
+    --purple:#003162;
+    --purple-light:#014c97;
     --dark-blue:#012677;
     --blue:#5c65c0;
     --skyblue :#00b4fc;
     --light-blue:#005bc5;
-    --dark-pink:#f64c57;
+    --dark-pink:#0959b5;
     --dark-magenta:#e21b5a;
     --light-green:#61e2c2;
     --light-purple:#d9abff;
@@ -128,7 +128,7 @@ body{
     font-size: 12px;
 }
 .download-btn{
-    background: linear-gradient(45deg, #f64c57,#e21b5a);
+    background: linear-gradient(45deg, #0257a7,#00307d);
     color:#fff;
     padding: 1rem 3rem;
     border-radius: 30px;
