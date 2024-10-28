@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #004bb5;
+  --primary-color2: #003785;
   --text-dark: #2d2b2c;
   --text-light: #767268;
   --white: #ffffff;
@@ -39,7 +40,7 @@
   width: 100%;
   max-width: 4rem;
   height: 2px;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color2);
 }
 
 .btn {
@@ -102,7 +103,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--text-dark);
+  background-color: var(--primary-color);
 }
 
 .nav__logo img {
