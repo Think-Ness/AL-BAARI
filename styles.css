@@ -586,7 +586,8 @@ nav {
   }
 
   .nav__links a {
-    color: var(--text-dark);
+    color: var(--primary-color);
+    /* color: var(--text-dark); */
   }
 
   .header__image {
