@@ -71,9 +71,16 @@
         <div class="about">
            <h1>Kirim Pesan</h1>
            <form method="post" action="https://script.google.com/macros/s/AKfycbxy3ISnH05eDfwIMhADHFjftQn6CqtTpWHPVdOk7Aio_uvxZi1-0ViXdLJSpkztgGCs/exec" name="contact-form">
-            <input type="text" id="panitia" name="Nama_Panitia" value="Untuk: Sigap Dwi Aminullah">
-            <input type="text" name="Nama_Pengirim" placeholder="Nama penulis ">
-            <input type="text" id="pesan" name="Pesan" placeholder="Isi pesan disini...">
+              <input type="text" readonly id="panitia" name="Nama_Panitia" value="Untuk: Sigszdfgasfasdfsadfsadfap Dwi Aminullah">
+            <div class="isi">
+               <input type="text" class="tes" name="Nama_Pengirim" required>
+               <div class="lebelline">Masukan Nama Anda</div>
+            </div>
+            <div class="isi">
+               <textarea class="tes" type="text" id="pesan" name="Pesan" required></textarea>
+               <!-- <input class="tes" type="text" id="pesan" name="Pesan" required> -->
+               <div class="lebelline">Tulis Pesan Anda</div>
+            </div>
             <input type="submit" name="Submit" id="submit">
            </form>
        </div>

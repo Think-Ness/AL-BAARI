@@ -9,3 +9,10 @@ form.addEventListener('submit', e => {
   .then(() => { window.location.reload(); })
   .catch(error => console.error('Error!', error.message))
 })
+
+
+const textarea = document.querySelector("textarea");
+textarea.addEventListener("keyup",e =>{
+  let scHeight = e.target.scrolHeight;
+  console.log(scHeight)
+})
