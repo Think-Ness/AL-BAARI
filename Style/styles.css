@@ -135,6 +135,12 @@ body{
     margin-top: 1.5rem;
     border:none;
 }
+
+.download-btn a{
+    text-decoration: none;
+    color: white;
+}
+
 /*****about section ****/
 .about{
     background-color: #111;
@@ -172,6 +178,26 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 }
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#panitia{
+    border: none;
+    background-color: transparent;
+    color: white;
+    
+}
+
+#pesan{
+    text-align: start;
+padding-bottom: 100px;
+    height: 150px;
+}
+
 .work .workbox{
     display: flex;
     justify-content: space-between;
