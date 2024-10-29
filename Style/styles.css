@@ -123,11 +123,20 @@ body{
     border:1px solid rgba(255,255,255,0.1);
 }
 .row .content{
+    /* display: grid; */
+    width: fit-content;
     min-width: 70%;
+    /* height: 100; */
 }
 .row .content span{
     font-size: 12px;
 }
+
+.row .content h5{
+    /* font-size: 100%; */
+}
+
+
 .download-btn{
     background: linear-gradient(45deg, #0257a7,#00307d);
     color:#fff;
