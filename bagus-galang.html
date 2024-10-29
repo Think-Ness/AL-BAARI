@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Baari' </title>
+    <link rel="icon" type="image/png" href="assets/header3.png">
+    <!---external css ---->
+    <link rel="stylesheet" href="Style/styles.css">
+    <!---font awesome cdn for font icons---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+   <div class="container">
+
+       <div class="profile-card"> 
+            <div class="profile-pic">
+                <img src="images/sigap.png" alt="user avatar">
+            </div>
+
+            <div class="profile-details">
+                 <div class="intro">
+                    <h2>Sigap Dwi Aminullah</h2>
+                    <h4>Sekertaris 01</h4>
+                    <div class="social">
+                        <a href="https://www.instagram.com/sigap_dwi96/"><i class="fab fa-instagram" style="color:var(--blue)"></i></a>
+                        <a href="#"><i class="fab fa-twitter"  style="color:var(--skyblue)"></i></a>
+                        <a href="#"><i class="fab fa-facebook"  style="color:var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                    </div>
+                 </div>
+
+                 <div class="contact-info">
+                    <div class="row">
+                         <div class="icon">
+                            <i class="fa fa-phone"  style="color:var(--dark-magenta)"></i>
+                         </div>
+                         <div class="content">
+                            <span>No WA</span>
+                            <h5>+62 8233 2914 996</h5>
+                         </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="icon">
+                           <i class="fa fa-envelope-open"  style="color:var(--light-green)"></i>
+                        </div>
+                        <div class="content">
+                           <span>Email</span>
+                           <h5>sigapdwi@outlook.com</h5>
+                        </div>
+                   </div>
+    
+                   <div class="row">
+                    <div class="icon">
+                       <i class="fa fa-map-marker"  style="color:var(--light-purple)"></i>
+                    </div>
+                    <div class="content">
+                       <span>Daerah</span>
+                       <h5>Lombok</h5>
+                    </div>
+                 </div>
+
+            </div>
+               <button class="download-btn" ><a href="index.html">Buka Website</a></button>
+            </div>
+       </div>
+
+       <!-- --about section --- -->
+        <div class="about">
+           <h1>Kirim Pesan</h1>
+           <form method="post" action="https://script.google.com/macros/s/AKfycbxy3ISnH05eDfwIMhADHFjftQn6CqtTpWHPVdOk7Aio_uvxZi1-0ViXdLJSpkztgGCs/exec" name="contact-form">
+              <input type="text" readonly id="panitia" name="Nama_Panitia" value="Untuk: Sigap Dwi Aminullah 😚">
+              <input type="text" readonly id="email" name="Email" value="sigapsayangibu@gmail.com">
+            <div class="isi">
+               <input type="text" id="pengirim" class="tes" name="Nama_Pengirim" required>
+               <div class="lebelline">Nama anda</div>
+            </div>
+            <div class="isi">
+               <textarea class="tes" type="text" id="pesan" name="Pesan" required></textarea>
+               <!-- <input class="tes" type="text" id="pesan" name="Pesan" required> -->
+               <div class="lebelline">Tulis sesuatu disini</div>
+            </div>
+               <input type="submit" name="Submit" id="submit" value="Kirim Pesan">
+           </form>
+       </div>
+   </div>
+   <script src="js/main.js"></script>
+</body>
+</html>

@@ -211,7 +211,7 @@ nav {
 }
 
 .feature__card:hover {
-  background-color: rgb(173, 209, 255);
+  background-color: #eadec4;
   box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
 }
 
@@ -301,7 +301,7 @@ nav {
 }
 
 .story__image img {
-  max-width: 350px;
+  max-width: 550px;
   margin-inline: auto;
 }
 
@@ -484,7 +484,7 @@ nav {
   margin-bottom: 0.5rem;
   font-size: 2rem;
   font-weight: 00;
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .subscribe__container p {
