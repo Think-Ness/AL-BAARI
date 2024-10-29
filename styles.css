@@ -103,7 +103,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color2);
 }
 
 .nav__logo img {
@@ -131,7 +131,8 @@ nav {
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  background-color: var(--text-dark);
+  /* background-color: var(--text-dark); */
+  background-color: #eadec4;
   transition: 0.5s;
   z-index: -1;
   transform: translateY(-100%);
@@ -143,7 +144,7 @@ nav {
 
 .nav__links a {
   font-weight: 500;
-  color: var(--white);
+  color: var(--primary-color2);
 }
 
 .nav__links a:hover {
@@ -465,6 +466,11 @@ nav {
   font-size: 1rem;
   font-weight: 500;
   color: var(--text-light);
+}
+
+.Inpo{
+  color: rgb(180, 179, 179);
+  text-align: center;
 }
 
 .subscribe {
