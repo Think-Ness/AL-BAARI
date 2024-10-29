@@ -302,7 +302,7 @@ nav {
 }
 
 .story__image img {
-  max-width: 550px;
+  max-width: 555px;
   margin-inline: auto;
 }
 
@@ -394,6 +394,7 @@ nav {
 .client__container {
   display: grid;
   gap: 4rem;
+  text-align: center;
 }
 
 .client__image {
@@ -423,6 +424,7 @@ nav {
 
 .swiper {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .client__card {
@@ -541,6 +543,10 @@ nav {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .swiper {
+    width: 70%;
+  }
 }
 
 @media (width > 768px) {
@@ -605,7 +611,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .story__container {
+  .story__container,.client__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     text-align: left;

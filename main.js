@@ -70,3 +70,7 @@ ScrollReveal().reveal(".client__image img", {
 const swiper = new Swiper(".swiper", {
   loop: true,
 });
+
+function notif(){
+  alert("Terima sudah berlanganan bersama kami");
+}
