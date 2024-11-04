@@ -209,11 +209,23 @@ nav {
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: 0.3s;
+  
+}
+
+.fotosec{
+  display: none;
 }
 
 .feature__card:hover {
   background-color: #eadec4;
   box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
+  .fotosec {
+    display: block;
+  }
+
+  .fotofir{
+    display: none;
+  }
 }
 
 .feature__card span {

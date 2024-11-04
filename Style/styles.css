@@ -123,10 +123,8 @@ body{
     border:1px solid rgba(255,255,255,0.1);
 }
 .row .content{
-    /* display: grid; */
     width: fit-content;
     min-width: 70%;
-    /* height: 100; */
 }
 .row .content span{
     font-size: 12px;
