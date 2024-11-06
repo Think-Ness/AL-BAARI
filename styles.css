@@ -425,6 +425,10 @@ nav {
   z-index: -1;
 }
 
+button a{
+  color: white;
+}
+
 .client__image img {
   max-width: 550px;
   margin-inline: auto;
@@ -543,7 +547,7 @@ nav {
   text-align: center;
 }
 
-@media (width > 540px) {
+@media (width > 640px) {
   .feature__grid {
     grid-template-columns: repeat(2, 1fr);
   }

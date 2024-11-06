@@ -172,7 +172,7 @@ body{
     right:-50%;
     width:45%;
     height: 3px;
-    background: linear-gradient(45deg, #0257a7,#00307d);
+    /* background: linear-gradient(45deg, #0257a7,#00307d); */
 }
 .about h2{
     color:#f2f2f2;
@@ -312,7 +312,7 @@ textarea::-webkit-scrollbar{
 /***Responsive Design ***/
 @media(max-width:768px)
 {
-    .about{
+    .about, .profile-card{
         width: 1005;
         max-width: 400px;
         padding:1rem;
@@ -320,7 +320,7 @@ textarea::-webkit-scrollbar{
 
     }
     .about h1{
-        font-size: 2.2rem;
+        font-size: 2.0rem;
     }
     .about .work{
         grid-template-columns: repeat(1,1fr);
