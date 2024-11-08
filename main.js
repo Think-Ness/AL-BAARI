@@ -74,3 +74,9 @@ const swiper = new Swiper(".swiper", {
 function notif(){
   alert("Terima sudah berlanganan bersama kami");
 }
+function blm(){
+  alert("Akan kami cantumkan segera🙏");
+}
+function sgr(){
+  alert("Mohon maaf belum waktunya 😊");
+}
